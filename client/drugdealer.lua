@@ -126,8 +126,8 @@ function CreateBlipCircle(coords, text, color, sprite, radius, size)
 end
 
 Citizen.CreateThread(function()
-	for i = 1, #Config.Blips, 1 do
-		local zone = Config.Blips[i]
+	for i, v in pairs(Config.Blips) do
+		local zone = v
 		CreateBlipCircle(zone.pos, zone.name, zone.color, zone.sprite, zone.radius, zone.size)
 	end
 end)

@@ -5,38 +5,38 @@ Config.PatreonEmail = 'Your Patrion Email' --Take authorisation with your patreo
 Config.GiveBlack = true -- give black money? if disabled it'll give regular cash.
 
 Config.Blips = { --Commnent out if you don't need blips
-	[1] = {pos = vector3(-1172.19, -1571.77, 3.69), sprite = 496, color = 2, size = 1.3, radius = 50.0, name = 'DrugDealer Weed'},
-	[2] = {pos = vector3(-1172.19, -1571.77, 3.69), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Weed'},
-	[3] = {pos = vector3(116.75, -1990.18, 17.43), sprite = 496, color = 2, size = 1.3, radius = 50.0, name = 'Weed Lab'},
-	[4] = {pos = vector3(116.75, -1990.18, 17.43), sprite = 499, color = 2, size = 0.6, radius = 0.0, name = 'Weed Lab'},
+	{pos = vector3(-1172.19, -1571.77, 3.69), sprite = 496, color = 2, size = 1.3, radius = 50.0, name = 'DrugDealer Weed'},
+	{pos = vector3(-1172.19, -1571.77, 3.69), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Weed'},
+	{pos = vector3(116.75, -1990.18, 17.43), sprite = 496, color = 2, size = 1.3, radius = 50.0, name = 'Weed Lab'},
+	{pos = vector3(116.75, -1990.18, 17.43), sprite = 499, color = 2, size = 0.6, radius = 0.0, name = 'Weed Lab'},
 
-	[5] = {pos = vector3(348.04, 168.61, 102.12), sprite = 497, color = 0, size = 1.2, radius = 50.0, name = 'DrugDealer Coke'},
-	[6] = {pos = vector3(348.04, 168.61, 102.12), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Coke'},
-	[7] = {pos = vector3(-55.15, 6392.58, 30.52), sprite = 497, color = 0, size = 1.3, radius = 50.0, name = 'Coke Lab'},
-	[8] = {pos = vector3(-55.15, 6392.58, 30.52), sprite = 499, color = 2, size = 0.8, radius = 0.0, name = 'Coke Lab'},
+	{pos = vector3(348.04, 168.61, 102.12), sprite = 497, color = 0, size = 1.2, radius = 50.0, name = 'DrugDealer Coke'},
+	{pos = vector3(348.04, 168.61, 102.12), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Coke'},
+	{pos = vector3(-55.15, 6392.58, 30.52), sprite = 497, color = 0, size = 1.3, radius = 50.0, name = 'Coke Lab'},
+	{pos = vector3(-55.15, 6392.58, 30.52), sprite = 499, color = 2, size = 0.8, radius = 0.0, name = 'Coke Lab'},
 
-	[9] = {pos = vector3(-1146.53, 4940.75, 221.3), sprite = 496, color = 1, size = 1.3, radius = 50.0, name = 'DrugDealer Spice'},
-	[10] = {pos = vector3(-1146.53, 4940.75, 221.3), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Spice'},
-	[11] = {pos = vector3(2431.03, 4963.06, 41.38), sprite = 496, color = 1, size = 1.3, radius = 50.0, name = 'Spice Lab'},
-	[12] = {pos = vector3(2431.03, 4963.06, 41.38), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'Spice Lab'},
+	{pos = vector3(-1146.53, 4940.75, 221.3), sprite = 496, color = 1, size = 1.3, radius = 50.0, name = 'DrugDealer Spice'},
+	{pos = vector3(-1146.53, 4940.75, 221.3), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Spice'},
+	{pos = vector3(2431.03, 4963.06, 41.38), sprite = 496, color = 1, size = 1.3, radius = 50.0, name = 'Spice Lab'},
+	{pos = vector3(2431.03, 4963.06, 41.38), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'Spice Lab'},
 
-	[13] = {pos = vector3(42.23, 3706.88, 38.78), sprite = 93, color = 27, size = 1.3, radius = 50.0, name = 'DrugDealer Lean'},
-	[14] = {pos = vector3(42.23, 3706.88, 38.78), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Lean'},
-	[15] = {pos = vector3(93.22, -1291.32, 28.3), sprite = 93, color = 27, size = 1.3, radius = 50.0, name = 'Lean Lab'},
-	[16] = {pos = vector3(93.22, -1291.32, 28.3), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'Lean Lab'},
+	{pos = vector3(42.23, 3706.88, 38.78), sprite = 93, color = 27, size = 1.3, radius = 50.0, name = 'DrugDealer Lean'},
+	{pos = vector3(42.23, 3706.88, 38.78), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Lean'},
+	{pos = vector3(93.22, -1291.32, 28.3), sprite = 93, color = 27, size = 1.3, radius = 50.0, name = 'Lean Lab'},
+	{pos = vector3(93.22, -1291.32, 28.3), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'Lean Lab'},
 
-	[17] = {pos = vector3(32.46, -627.4, 10.8), sprite = 403, color = 5, size = 1.3, radius = 50.0, name = 'DrugDealer X-Pills'},
-	[18] = {pos = vector3(32.46, -627.4, 10.8), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer X-Pills'},
-	[19] = {pos = vector3(3561.85, 3670.55, 27.15), sprite = 403, color = 5, size = 1.3, radius = 50.0, name = 'X-Pills Lab'},
-	[20] = {pos = vector3(3561.85, 3670.55, 27.15), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'X-Pills Lab'},
+	{pos = vector3(32.46, -627.4, 10.8), sprite = 403, color = 5, size = 1.3, radius = 50.0, name = 'DrugDealer X-Pills'},
+	{pos = vector3(32.46, -627.4, 10.8), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer X-Pills'},
+	{pos = vector3(3561.85, 3670.55, 27.15), sprite = 403, color = 5, size = 1.3, radius = 50.0, name = 'X-Pills Lab'},
+	{pos = vector3(3561.85, 3670.55, 27.15), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'X-Pills Lab'},
 
-	[21] = {pos = vector3(1394.54, 3601.74, 37.97), sprite = 501, color = 21, size = 1.3, radius = 50.0, name = 'Heroin Lab'},
-	[22] = {pos = vector3(1394.54, 3601.74, 37.97), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'Heroin Lab'},
+	{pos = vector3(1394.54, 3601.74, 37.97), sprite = 501, color = 21, size = 1.3, radius = 50.0, name = 'Heroin Lab'},
+	{pos = vector3(1394.54, 3601.74, 37.97), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'Heroin Lab'},
 
-	[23] = {pos = vector3(495.28, -1823.37, 28.9), sprite = 57, color = 45, size = 1.0, radius = 50.0, name = 'DrugDealer Meth'},
-	[24] = {pos = vector3(495.28, -1823.37, 28.9), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Meth'},
-	[25] = {pos = vector3(244.61, 374.4, 104.77), sprite = 57, color = 45, size = 1.0, radius = 50.0, name = 'Meth Lab'},
-	[26] = {pos = vector3(244.61, 374.4, 104.77), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'Meth Lab'},
+	{pos = vector3(495.28, -1823.37, 28.9), sprite = 57, color = 45, size = 1.0, radius = 50.0, name = 'DrugDealer Meth'},
+	{pos = vector3(495.28, -1823.37, 28.9), sprite = 278, color = 2, size = 1.0, radius = 0.0, name = 'DrugDealer Meth'},
+	{pos = vector3(244.61, 374.4, 104.77), sprite = 57, color = 45, size = 1.0, radius = 50.0, name = 'Meth Lab'},
+	{pos = vector3(244.61, 374.4, 104.77), sprite = 499, color = 2, size = 0.62, radius = 0.0, name = 'Meth Lab'},
 
 }
 
