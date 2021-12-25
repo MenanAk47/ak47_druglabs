@@ -85,11 +85,13 @@ function OpenDrugShop(id, items, coord)
 		    title = 'How much whould you like to sell?'
         }, function(data2, menu2)
 			local amount = tonumber(data2.value)
-			TriggerServerEvent('ak47_druglabs:sellDrug', data.current.name, amount, data.current.price * amount)
-			menu.close()
-			menu2.close()
-			Citizen.Wait(1000)
-			OpenDrugShop(id,items)
+			if amount and amount > 0 then
+				TriggerServerEvent('ak47_druglabs:sellDrug', data.current.name, amount, data.current.price * amount)
+				menu.close()
+				menu2.close()
+				Citizen.Wait(1000)
+				OpenDrugShop(id,items)
+			end
 		end,function(data2, menu2)
 			menu.close()
 			menu2.close()
